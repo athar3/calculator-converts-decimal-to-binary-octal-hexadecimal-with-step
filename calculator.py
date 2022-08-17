@@ -54,7 +54,7 @@ def hexa(desimal):
                 return "F"
             else:
                 return bagi
-        print(f"{desimal} : 16 = {desimal//16} sisa {str(konversi(bagi))}")
+        print(f"{desimal} : 16 = {desimal//16} sisa {bagi} atau {str(konversi(bagi))}")
         desimal = desimal // 16
         hasil.append(konversi(bagi))
 
