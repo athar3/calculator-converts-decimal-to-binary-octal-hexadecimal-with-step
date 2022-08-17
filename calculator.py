@@ -11,7 +11,7 @@ def biner(desimal):
     hasil=[]
     while(desimal != 0):
         bagi = desimal % 2
-        print(f"{desimal} : 2 = {bagi}")
+        print(f"{desimal} : 2 = {desimal} sisa {bagi}")
         desimal = desimal // 2
         hasil.append(bagi)
 
@@ -25,7 +25,7 @@ def oktal(desimal):
     hasil=[]
     while(desimal != 0):
         bagi = desimal % 8
-        print(f"{desimal} : 8 = {bagi}")
+        print(f"{desimal} : 8 = {desimal} sisa {bagi}")
         desimal = desimal // 8
         hasil.append(bagi)
 
@@ -54,7 +54,7 @@ def hexa(desimal):
                 return "F"
             else:
                 return bagi
-        print(f"{desimal} : 16 = {str(konversi(bagi))}")
+        print(f"{desimal} : 16 = {desimal} sisa {str(konversi(bagi))}")
         desimal = desimal // 16
         hasil.append(konversi(bagi))
 
@@ -82,4 +82,4 @@ if __name__ == '__main__':
 
     
     
-#anyways, if u guys can make in some simpler way. i would love to know it!
+#anyways, if u guys can make in a simpler way. i would love to know it!
